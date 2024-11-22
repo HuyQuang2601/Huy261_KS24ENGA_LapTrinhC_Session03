@@ -7,7 +7,7 @@ int main(){
 	int hundred = (number%1000)/100;
 	int tens = ((number%1000)%100)/10;
 	int unit = ((number%1000)%100)%10;
-	printf("So nghich dao cua so da nhap la: %d%d%d%d", unit,tens,hundred,thousand);
+	printf("%d%d%d%d", unit, tens, hundred, thousand);
 	
 	return 0;
 }
